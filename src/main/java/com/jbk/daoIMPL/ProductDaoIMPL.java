@@ -15,7 +15,7 @@ public class ProductDaoIMPL implements ProductDao {
 		
 		list.add(product);
 		
-		return "Product  saved!";
+		return "Product is saved!";
 	}
 
 	@Override
