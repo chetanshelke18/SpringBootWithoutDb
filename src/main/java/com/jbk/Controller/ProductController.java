@@ -9,6 +9,8 @@ import com.jbk.model.Product;
 @RestController
 public class ProductController {
 
+	
+	
 	@PostMapping("/save-product")
 	public String saveProduct(@RequestBody Product product) {
 		
